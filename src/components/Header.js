@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import classes from './Header.module.css';
-import { authActions } from '../Store/store';
+import { authActions } from '../Store/auth';
 
 const Header = () => {
   const dispatch = useDispatch()
